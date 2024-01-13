@@ -168,6 +168,8 @@ class PurchaseController extends Controller
                 ];
             }
             $purchase->items()->sync($items);
+
+            DB::commit();
             return to_route('dashboard');
         } catch (\Exception $e) {
             DB::rollBack();
