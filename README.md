@@ -46,6 +46,12 @@
 
 **uCRM**はこれらの機能を組み合わせ、企業が効果的な顧客関係戦略を策定し、ビジネスの成果を最大化するのに役立つ総合的なプラットフォームです。
 
+![localhost_8000_analysis](https://github.com/nishihatakoh/uCRM/assets/103934454/4bff5643-2fc8-4d99-b71d-42215aa4043b)
+
+
+
+
+
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 環境
