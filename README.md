@@ -6,23 +6,14 @@
 <!-- 該当するプロジェクトの中から任意のものを選ぶ-->
 <p style="display: inline">
   <!-- フロントエンドのフレームワーク一覧 -->
-  <img src="https://img.shields.io/badge/-Node.js-000000.svg?logo=node.js&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-TailwindCSS-000000.svg?logo=tailwindcss&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <!-- バックエンドのフレームワーク一覧 -->
-  <img src="https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=for-the-badge">
-  <!-- バックエンドの言語一覧 -->
-  <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
-  <!-- ミドルウェア一覧 -->
-  <img src="https://img.shields.io/badge/-Nginx-269539.svg?logo=nginx&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-MySQL-4479A1.svg?logo=mysql&style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/-Gunicorn-199848.svg?logo=gunicorn&style=for-the-badge&logoColor=white">
-  <!-- インフラ一覧 -->
-  <img src="https://img.shields.io/badge/-Docker-1488C6.svg?logo=docker&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-githubactions-FFFFFF.svg?logo=github-actions&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-Amazon%20aws-232F3E.svg?logo=amazon-aws&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-terraform-20232A?style=for-the-badge&logo=terraform&logoColor=844EBA">
+    <img src="https://img.shields.io/badge/-Html5-ffffff.svg?logo=html5&style=for-the-badge">
+    <img src="https://img.shields.io/badge/-Css3-ffffff.svg?logo=css3&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-Vue.js-ffffff.svg?logo=vue.js&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-Javascript-ffffff.svg?logo=javascript&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-Php-ffffff.svg?logo=php&style=for-the-badge">
+<img src="https://img.shields.io/badge/-Laravel-ffffff.svg?logo=laravel&style=for-the-badge">
+<img src="https://img.shields.io/badge/-Mysql-ffffff.svg?logo=mysql&style=for-the-badge">
+
 </p>
 
 ## 目次
@@ -33,22 +24,9 @@
 4. [開発環境構築](#開発環境構築)
 5. [トラブルシューティング](#トラブルシューティング)
 
-<!-- READMEの作成方法のドキュメントのリンク -->
-<br />
-<div align="right">
-    <a href="READMEの作成方法のリンク"><strong>READMEの作成方法 »</strong></a>
-</div>
-<br />
-<!-- Dockerfileのドキュメントのリンク -->
-<div align="right">
-    <a href="Dockerfileの詳細リンク"><strong>Dockerfileの詳細 »</strong></a>
-</div>
-<br />
-<!-- プロジェクト名を記載 -->
+# uCRM
 
-## プロジェクト名
-
-React、DRF、Terraform のテンプレートリポジトリ
+顧客管理システム
 
 <!-- プロジェクトについて -->
 
