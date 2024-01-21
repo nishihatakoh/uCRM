@@ -86,83 +86,27 @@ React、DRF、Terraform を勉強する際に使用できるテンプレート
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
-## ディレクトリ構成
-
-<!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
-.
-├── .devcontainer
-│   └── devcontainer.json
-├── .env
-├── .github
-│   ├── action
-│   ├── release-drafter.yml
-│   └── workflows
-├── .gitignore
-├── Makefile
-├── README.md
-├── backend
-│   ├── .vscode
-│   ├── application
-│   ├── docs
-│   ├── manage.py
-│   ├── output
-│   ├── poetry.lock
-│   ├── project
-│   └── pyproject.toml
-├── containers
-│   ├── django
-│   ├── front
-│   ├── mysql
-│   └── nginx
-├── docker-compose.yml
-├── frontend
-│   ├── .gitignore
-│   ├── README.md
-│   ├── __test__
-│   ├── components
-│   ├── features
-│   ├── next-env.d.ts
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pages
-│   ├── postcss.config.js
-│   ├── public
-│   ├── styles
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-└── infra
-    ├── .gitignore
-    ├── docker-compose.yml
-    ├── main.tf
-    ├── network.tf
-    └── variables.tf
-
-<p align="right">(<a href="#top">トップへ</a>)</p>
-
 ## 開発環境構築
 
-<!-- コンテナの作成方法、パッケージのインストール方法など、開発環境構築に必要な情報を記載 -->
+### 前提条件
 
-### コンテナの作成と起動
+- MAMPがインストールされていること
+- Node.jsおよびnpmがインストールされていること
+- Composerがインストールされていること
 
-.env ファイルを以下の環境変数例と[環境変数の一覧](#環境変数の一覧)を元に作成
+### 手順
 
-.env
-MYSQL_ROOT_PASSWORD=root
-MYSQL_DATABASE=django-db
-MYSQL_USER=django
-MYSQL_PASSWORD=django
-MYSQL_HOST=db
-MYSQL_PORT=3306
-SECRET_KEY=django
-DJANGO_SETTINGS_MODULE=project.settings.local
+1. **MAMPを起動する:**
 
+   MAMPを起動して、ApacheとMySQLのサーバーを起動してください。
 
-.env ファイルを作成後、以下のコマンドで開発環境を構築
+2. **ターミナルでuCRMディレクトリに移動:**
 
-make prepare
+   ターミナルを開き、uCRMプロジェクトが存在するディレクトリに移動します。
+
+   ```bash
+   cd /path/to/uCRM
+
 
 ### 動作確認
 
